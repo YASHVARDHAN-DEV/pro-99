@@ -6,7 +6,7 @@ def main():
 	deletedfolderscount = 0
 	deletedfilescount = 0
 	path = "/PATH_TO_DELETE"
-	days = 31
+	days = 30
 
 	if os.path.exists(path):
 		for root_folder, folders, files in os.walk(path):
